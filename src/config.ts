@@ -1,6 +1,5 @@
 export default {
   nickname: 'Young',
-  job: '前端开发',
   name: 'CYM',
   experience: '三年工作经验',
   wx: 'cymilyily',
@@ -8,6 +7,9 @@ export default {
   mobile: '17692390522',
   github: 'http://github.com/cuiyiming1998',
   avatar: 'https://avatars.githubusercontent.com/u/25956970?v=4',
+  job: 'Frontend Engineer',
+  birthday: '1998/05/22',
+  description: 'Everything will be ok.',
   address: 'Beijing, China',
   skills: [
     'JavaScript',

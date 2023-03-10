@@ -10,7 +10,7 @@ defineOptions({
       <Profile />
     </div>
     <div w="full md:2/3">
-      Projects
+      <Skills />
     </div>
   </div>
 </template>
