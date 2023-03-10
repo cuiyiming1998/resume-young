@@ -15,7 +15,7 @@ const { name, github, job, wx, mobile, email, address, description, birthday } =
     <h2 text="base center gray-400/90" my-2>
       {{ description }}
     </h2>
-    <!-- if you want to show your experience -->
+    <!-- If you want to show your experience -->
     <!-- <h2 text="sm center gray-400/70" my-2>
       {{ experience }}
     </h2> -->

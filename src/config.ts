@@ -16,7 +16,7 @@ export default {
     'TypeScript',
     'Vue',
     'React',
-    'vite',
+    'Vite',
     'Webpack',
     'TailwindCSS',
     'Unocss',
