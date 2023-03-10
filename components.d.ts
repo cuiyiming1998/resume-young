@@ -13,6 +13,8 @@ declare module '@vue/runtime-core' {
     Contact: typeof import('./src/components/Contact.vue')['default']
     Header: typeof import('./src/components/Header.vue')['default']
     Profile: typeof import('./src/components/Profile.vue')['default']
+    ProjectItem: typeof import('./src/components/ProjectItem.vue')['default']
+    Projects: typeof import('./src/components/Projects.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Skills: typeof import('./src/components/Skills.vue')['default']

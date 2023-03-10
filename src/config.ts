@@ -21,4 +21,27 @@ export default {
     'TailwindCSS',
     'Unocss',
   ],
+  projects: [
+    {
+      name: 'Vue3-mini',
+      description: 'Minimum implementation of Vue3 source code.',
+      iconName: 'i-carbon-logo-vue',
+      icon: h('div', { class: 'i-carbon-logo-vue' }),
+      url: 'https://github.com/cuiyiming1998/Vue3-mini',
+    },
+    {
+      name: 'Algorithms-JavaScript',
+      description: 'Writting Algorithms in JavaScript.',
+      iconName: 'i-carbon-bloch-sphere',
+      icon: h('div', { class: 'i-carbon-logo-vue' }),
+      url: 'https://github.com/cuiyiming1998/algorithms-javascript',
+    },
+    {
+      name: 'Awesome-JavaScript',
+      description: 'Implementation of JavaScript native APIs.',
+      iconName: 'i-carbon-bloch-sphere',
+      icon: h('div', { class: 'i-carbon-logo-vue' }),
+      url: 'https://github.com/cuiyiming1998/awesome-javascript',
+    },
+  ],
 }
