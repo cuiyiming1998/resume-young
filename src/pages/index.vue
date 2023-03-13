@@ -9,9 +9,10 @@ defineOptions({
     <div w="full md:1/3">
       <Profile />
     </div>
-    <div w="full md:2/3" flex="~ col" gap-y-8>
+    <div w="full md:2/3" p="r-0 md:r-10" flex="~ col" gap-y-8>
       <Skills />
       <Projects />
+      <Works />
     </div>
   </div>
 </template>

@@ -69,7 +69,15 @@ export default {
       url: 'https://github.com/cuiyiming1998/awesome-javascript',
     },
   ],
+  // 工作经历
   works: [
-
+    {
+      startTime: '2020/12',
+      endTIme: '至今',
+      company: '北京昇科能源科技有限公司',
+      job: '前端开发',
+      description:
+        '用Vue3+Ts写了点儿后台管理系统, 用umi写了点H5, 做了点大屏适配, 拖拽组件, 封装了点工具库和业务组件.',
+    },
   ],
 }
