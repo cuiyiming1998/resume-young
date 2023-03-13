@@ -1,7 +1,18 @@
 <script setup lang="ts">
 import config from '~/config'
 
-const { name, github, job, wx, mobile, email, address, description, birthday } = config
+const {
+  name,
+  github,
+  job,
+  wx,
+  mobile,
+  email,
+  address,
+  description,
+  birthday,
+  university,
+} = config
 </script>
 
 <template>
@@ -24,6 +35,10 @@ const { name, github, job, wx, mobile, email, address, description, birthday } =
       <div flex items-center>
         <div i-carbon-face-cool inline-block mr-2 />
         <span>{{ birthday }}</span>
+      </div>
+      <div flex items-center>
+        <div i-ion-university inline-block mr-2 />
+        <span>{{ university }}</span>
       </div>
       <div flex items-center>
         <div i-carbon-logo-github inline-block mr-2 />
