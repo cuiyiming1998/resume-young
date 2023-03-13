@@ -7,17 +7,15 @@ import {
   // transformerDirectives,
   // transformerVariantGroup,
 } from 'unocss'
+import config from '~/config'
 
-const safeListIcons = [
-  'i-carbon-logo-vue',
-  'i-carbon-bloch-sphere',
-  'i-ion-logo-javascript',
-  'i-ion-construct',
-  'i-ion-logo-react',
-  'i-ion-earth',
-]
-
-const safelist = [...safeListIcons]
+const createSafeListIcons = (): string[] => {
+  const { projects } = config
+  const safelistIcons = projects.map(project => project.iconName)
+  return safelistIcons
+}
+const safelistIcons = createSafeListIcons()
+const safelist = [...safelistIcons]
 
 export default defineConfig({
   shortcuts: [
