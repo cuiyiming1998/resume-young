@@ -17,7 +17,6 @@ const { projects } = config
           :description="project.description"
           :icon-name="project.iconName"
           :url="project.url"
-          :icon="project.icon"
         />
       </div>
     </div>

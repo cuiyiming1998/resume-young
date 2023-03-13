@@ -4,7 +4,6 @@ const props = defineProps<{
   description: string
   iconName?: string
   url: string
-  icon: VNode
 }>()
 
 const openWindow = (url: string) => {
@@ -23,7 +22,7 @@ const openWindow = (url: string) => {
     @click="openWindow(props.url)"
   >
     <div v-if="props.iconName" w-10 mr-4 flex items-center justify-center>
-      <component :is="props.icon" w-8 h-8 />
+      <div :class="props.iconName" w-8 h-8 />
     </div>
     <div flex-1 flex="~ col">
       <div text="xl">
