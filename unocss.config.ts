@@ -7,7 +7,7 @@ import {
   // transformerDirectives,
   // transformerVariantGroup,
 } from 'unocss'
-import config from '~/config'
+import config from './src/config'
 
 const createSafeListIcons = (): string[] => {
   const { projects } = config
