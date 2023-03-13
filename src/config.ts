@@ -37,6 +37,10 @@ export default {
     'Unocss',
   ],
   // 项目[]
+  // icons -> https://icones.js.org/collection/ion?s=university
+  // 目前引用了 carbon 和 ion
+  // 需要的可以自行引入
+  // pnpm i -D @iconify-json/xxx
   projects: [
     {
       name: 'Vue3-mini',
