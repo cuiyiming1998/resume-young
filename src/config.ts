@@ -49,6 +49,12 @@ export default {
       url: 'https://github.com/cuiyiming1998/Vue3-mini',
     },
     {
+      name: 'Pinia-mini',
+      description: 'Minimum implementation of Pinia source code.',
+      iconName: 'i-mdi-fruit-pineapple',
+      url: 'https://github.com/cuiyiming1998/pinia-mini',
+    },
+    {
       name: 'Algorithms-JavaScript',
       description: 'Writting Algorithms with JavaScript.',
       iconName: 'i-ion-construct',
