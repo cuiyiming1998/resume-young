@@ -78,6 +78,12 @@ export default {
       iconName: 'i-ion-earth',
       url: 'https://github.com/cuiyiming1998/awesome-javascript',
     },
+    {
+      name: 'Vite-Plugin-Vue-Page-To-Editor',
+      description: 'shift + left click -> show code in your editor',
+      iconName: 'i-carbon-logo-vue',
+      url: 'https://github.com/cuiyiming1998/vite-plugin-vue-page-to-editor',
+    },
   ],
   // 工作经历
   works: [
